@@ -18,3 +18,4 @@ def call(String buildStatus = 'STARTED') {
         recipientProviders: [[$class: 'RequesterRecipientProvider'], [$class:'CulpritsRecipientProvider']]
     )
 }
+
